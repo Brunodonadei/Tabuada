@@ -11,10 +11,13 @@ namespace Tabuada
 
             int resultado;
 
-            for (int contador = 0; contador <= 10; contador ++)
+
+            for (int contador = 0; contador <= 100; contador ++)
             {
                 resultado = resposta * contador;
                 Console.WriteLine($"{resposta} * {contador} = {resultado}");
+
+                
             }
         }
     }
